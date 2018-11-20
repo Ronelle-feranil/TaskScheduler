@@ -1,0 +1,20 @@
+#local
+server:
+  port: 9090
+  
+spring:
+  profiles: local
+  
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect  
+      
+  datasource:
+    url: jdbc:mysql://localhost:3306/task_scheduler?autoReconnect=true
+    username: root  
+    password: L@wson123 
+    driverClassName: com.mysql.jdbc.Driver

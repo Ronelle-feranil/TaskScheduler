@@ -1,0 +1,7 @@
+
+.settings/*
+target/*
+logs/.DS_Store
+.factorypath
+.DS_Store
+.classpath
